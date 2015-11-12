@@ -8,7 +8,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>TDC</title>
+		<title>TDC office</title>
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<meta name="author" content="Dokmeh" />
