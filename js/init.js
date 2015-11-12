@@ -65,7 +65,7 @@ $(function (argument) {
 	var TeXt;
 	function menu (x,y) {
 		if(isMobile != true){
-			$('nav span:nth-child('+(i+1)+')').css({'top':y+'px','left':x+'px'});	
+			$('nav a:nth-child('+(i+1)+')').css({'top':y+'px','left':x+'px'});	
 		}else{
 			$('.main-nav').addClass('main-nav-responsive');
 		}

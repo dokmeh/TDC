@@ -8,7 +8,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>TDC</title>
+		<title>TDC office</title>
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<meta name="author" content="Dokmeh" />
@@ -36,11 +36,11 @@
 	</head>
 	<body id="body">
 		<nav class="main-nav">
-			<span class="coloniContainer" data-menu="architecture"><p>Architecture</p><div></div></span>
-			<span class="coloniContainer" data-menu="portfolio"><p>Portfolio</p><div></div></span>
-			<span class="coloniContainer" data-menu=""><p>Awards</p><div></div></span>
-			<span class="coloniContainer" data-menu=""><p>Media</p><div></div></span>
-			<span class="coloniContainer" data-menu="contact"><p>Contact Us</p><div></div></span>
+			<a href="#" class="coloniContainer" data-menu="architecture"><p>Architecture</p><div></div></a>
+			<a href="#" class="coloniContainer" data-menu="portfolio"><p>Portfolio</p><div></div></a>
+			<a href="#" class="coloniContainer" data-menu=""><p>Awards</p><div></div></a>
+			<a href="#" class="coloniContainer" data-menu=""><p>Media</p><div></div></a>
+			<a href="#" class="coloniContainer" data-menu="contact"><p>Contact Us</p><div></div></a>
 		</nav>
 		
         <section id="enter">
