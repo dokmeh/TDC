@@ -7,19 +7,35 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
-		<title>TDC office</title>
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<meta name="author" content="Dokmeh" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+  <meta charset="UTF-8">
+  <title>TDC Office</title>
+  <meta property="og:title" content=">TDC office" />
+  <meta property="og:type" content=">website" />
+  <meta property="og:url" content="http://www.tdcoffice.com/" />
+  <meta property="og:image" content="http://tdcoffice.com/img/intro.jpg" />
+  <meta property="og:site_name" content=">TDC office" />
+  <meta property="og:description" content="TDC Office is a group of architects, designers and engineers active in fields of architecture, interior design and art Led by Sara Kalantary and Reza Sayadian" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="TDC Office is a group of architects, designers and engineers active in fields of architecture, interior design and art Led by Sara Kalantary and Reza Sayadian" />
+  <meta name="keywords" content="TDC, TDCoffice, تداوم پویا, Saba Residential" />
+  <meta name="author" content="Farzad Kafaie - Dokmeh Design Studio">
+  <meta name="robots" content="index, follow">
+  <meta name="revisit-after" content="1 days">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+  <meta name="theme-color" content="#ffffff">
+
 		<link rel="shortcut icon" href="favicon.ico">
 		<link rel="stylesheet" href="css/grid.css" />
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/perfect-scrollbar.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/css-reset.css" />
 		<link href='https://fonts.googleapis.com/css?family=Exo+2:400,300,700' rel='stylesheet' type='text/css'>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/background.css" rel="stylesheet" type="text/css">
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/touch.event.min.js"></script>
@@ -56,10 +72,6 @@
         	<img src="img/logo-b.svg">
         </footer>
         <div class="loading"><img src="img/logo-b.svg"></div>
-        <audio controls class="fade-audio">
-		  <source src="sounds/sound_3.ogg" type="audio/ogg">
-		  <source src="sounds/sound_3.mp3" type="audio/mpeg">
-		</audio>
 	</body>
 	
 	

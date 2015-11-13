@@ -85,28 +85,24 @@ interior design.
 							<img src="img/up-close.svg">
 						</div>
 						<div class="fullsize-footer">
-							<div class="control">
-								<div class="left-arrow arrow">
-									<svg version="1.1" class="arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 85 85" enable-background="new 0 0 85 85" xml:space="preserve">
-										<polygon fill="#FFFFFF" points="85,85 85,0 0,0 0,29.7 0,85 "></polygon>
-										<polyline fill="none" stroke="#25582C" stroke-width="2" stroke-miterlimit="10" points="51,59.6 34,42.5 51,25.4 "></polyline>
-										<!-- <polygon fill="none" points="0,29.8 0,29.8 0,0 29.8,0 "></polygon> -->
-									</svg>
-								</div>
-								<div class="numbers">
-									<p id="num-pic">1</p>
-									<img src="img/45degline.svg">
-									<p id="all-pic"><?php echo (count($files)) ?></p>
-								</div>
-								<div class="right-arrow arrow">
-									<svg version="1.1" class="arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 85 85" enable-background="new 0 0 85 85" xml:space="preserve">
-										<polygon fill="#FFFFFF" points="0,0 0,85 85,85 85,55.3 85,0 "></polygon>
-										<polyline fill="none" stroke="#25582C" stroke-width="2" stroke-miterlimit="10" points="34,25.4 51,42.5 34,59.6 "></polyline>
-										<!-- <polygon fill="none" points="85,55.2 85,55.2 85,85 55.2,85 "></polygon> -->
-									</svg>
-								</div>
-							</div>
+							
 						</div>
+						<div class="bigarrow">
+									<div class="bigleftarrow">
+										<svg version="1.1" class="arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 85 85" enable-background="new 0 0 85 85" xml:space="preserve">
+											<polygon fill="#FFFFFF" points="85,85 85,0 0,0 0,29.7 0,85 "></polygon>
+											<polyline fill="none" stroke="#25582C" stroke-width="2" stroke-miterlimit="10" points="51,59.6 34,42.5 51,25.4 "></polyline>
+											<!-- <polygon fill="none" points="0,29.8 0,29.8 0,0 29.8,0 "></polygon> -->
+										</svg>
+									</div>
+									<div class="bigrightarrow">
+										<svg version="1.1" class="arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 85 85" enable-background="new 0 0 85 85" xml:space="preserve">
+											<polygon fill="#FFFFFF" points="0,0 0,85 85,85 85,55.3 85,0 "></polygon>
+											<polyline fill="none" stroke="#25582C" stroke-width="2" stroke-miterlimit="10" points="34,25.4 51,42.5 34,59.6 "></polyline>
+											<!-- <polygon fill="none" points="85,55.2 85,55.2 85,85 55.2,85 "></polygon> -->
+										</svg>
+									</div>
+								</div>
 					</div>
 				</div>
 			</div>

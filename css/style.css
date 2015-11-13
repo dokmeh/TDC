@@ -68,6 +68,7 @@ nav.main-nav.main-nav-responsive .coloniContainer {
     width: 100%;
     top: initial;
     left: initial;
+    line-height: 0;
 }
 nav.main-nav.main-nav-responsive .coloniContainer div {
     left: 50%;
@@ -1101,6 +1102,9 @@ svg.arrow:hover path {
     right: 40px;
     /* display: none; */
 }
+.info-bar .control {
+    display: none;
+}
 .project .control{
     display:none;
 }
@@ -1881,14 +1885,31 @@ ul.ul-list {
 nav.main-nav.main-nav-responsive {
     background-color: rgba(255,255,255,0.8);
     z-index: 10;
-    height: 70%;
+    height: 40vh;
     bottom: 60px;
+    margin: auto;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    -ms-box-orient: horizontal;
+    display:                                                                                                                                                            
+    
+    -webkit-box;
+    display:                                                                                                                                                            
+    
+    -moz-box;
+    display:                                                                                                                                                            
+    
+    -ms-flexbox;
+    display:                                                                                                                                                            
+    
+    -moz-flex;
+    display:                                                                                                                                                            
+    
+    -webkit-flex;
+    display: flex;
 }
 .bigarrow {
     position: absolute;
@@ -2025,9 +2046,9 @@ section.thumbs.thumbop {
     left: 0;
 }
 
-.contact .col.span_2_of_6 {
+.col.span_2_of_6 {
     z-index: 10;
-    height: 50vh;
+    height: auto;
     padding: 0;
     bottom: 0;
     width: 100%;
@@ -2086,8 +2107,18 @@ section.thumbs.thumbop {
     
     
     
+    
+    
+    
+    
+    
     -webkit-box;
     display:
+    
+    
+    
+    
+    
     
     
     
@@ -2176,8 +2207,18 @@ section.thumbs.thumbop {
     
     
     
+    
+    
+    
+    
+    
     -ms-flexbox;
     display:
+    
+    
+    
+    
+    
     
     
     
@@ -2263,9 +2304,15 @@ section.thumbs.thumbop {
     
     
     
+    
+    
+    
+    
+    
     -webkit-flex;
     display: flex;
     flex-direction: column;
+    min-height: 500px;
     position: relative;
     z-index: 100000;
     width: 50vw;
@@ -2284,7 +2331,7 @@ section.thumbs.thumbop {
     width: 100%;
     margin: 0;
     flex-grow: 100;
-    height: 50vh;
+    height: auto;
     position: relative;
     border-top: 1px solid #23582B;
 }
@@ -3098,4 +3145,121 @@ and (orientation: portrait) {
 }
 .clock-hnld p img {
     width: 66px;
+}
+
+
+
+
+
+* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px) {
+   
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 1px) 
+  and (max-device-width: 568px)
+  and (orientation: portrait) {
+       .arch-box{
+        width: calc(100% - 24px);
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (orientation: landscape) {
+     nav.main-nav.main-nav-responsive{
+          height:60vh !important;
+      }
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px)  { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (orientation: portrait) { 
+        
+}
+
+/* Landscape */
+@media only screen and (max-device-width: 667px) and (min-device-width: 0px) and (orientation: landscape) { 
+  nav.main-nav.main-nav-responsive{
+      height:50vh;
+  }
+    nav.main-nav.main-nav-responsive .coloniContainer{
+        margin: auto;
+    }
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+       nav.main-nav.main-nav-responsive{
+          height:50vh;
+      }
+       nav.main-nav.main-nav-responsive .coloniContainer{
+        margin: auto;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
 }

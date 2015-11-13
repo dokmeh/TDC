@@ -33,7 +33,7 @@ $(function (argument) {
 		this.x = Math.random()*w;
 		this.y = Math.random()*h*(ch2Line);
 		this.r = r;
-		this.offset = Math.random()*800+off;
+		this.offset = Math.random()*500+off;
 		this.draw = function(){
 			if(r==2){
 				this.color = "#F7931D"
@@ -45,16 +45,16 @@ $(function (argument) {
 			ctx.fill();
 			if(c!=0){
 				if (menuch <= menuArray.length) {
-					//menuNum[menuch] = this.x;
-					menuch++;
-				}else{
-					menuch = 0;
-				}
+						//menuNum[menuch] = this.x;
+						menuch++;
+					}else{
+						menuch = 0;
+					}
 				var sW = $(window).width();
 				var sH = $(window).height();
 				var firsW = 0;
 				if (r == 2){
-					menu(this.x+0,this.y+3);
+					menu(this.x,this.y+3);
 				}
 				
 
@@ -75,6 +75,8 @@ $(function (argument) {
 	var menuNum = [];
  	var menuch = 0;
  	var layer1Stop = false;
+ 	var oldx;
+ 	var oldy;
  	var menuArray = ['Architecture','Portfolio','Awards','Media','Say Hello'];
 	var layer_1 = [],
 	layer_2 = [],
@@ -152,17 +154,17 @@ $(function (argument) {
 				p.y = h;
 			}
 		}else{
-			if(p.x > (w - 200)){
-				p.x =200;
+			if(p.x > (w - 50)){
+				p.x =50;
 			}
-			else if(p.x < 200){
-				p.x =(w - 200);
+			else if(p.x < 50){
+				p.x =(w - 50);
 			}
-			if(p.y > (h - 200)){
-				p.y =200;
+			if(p.y > (h - 50)){
+				p.y =50;
 			}
-			else if(p.y < 200){
-				p.y = (h - 200);
+			else if(p.y < 50){
+				p.y = (h - 50);
 			}
 		}
 	}
@@ -653,11 +655,18 @@ function portfolio (argument) {
 		$('.fullsize').removeClass('fullsize-on');
 		$('.close-container').not('.close-fullsize').show();
 	});
-	$('.left-arrow').click(function (argument) {
+	$('.left-arrow,.bigleftarrow').click(function (argument) {
 		PrevPic();
 	});
-	$('.right-arrow').click(function (argument) {
+	$('.right-arrow,.bigrightarrow').click(function (argument) {
 		NextPic();
+	});
+	$('.img-gallery,.bigarrow').bind('swiperight', function(e) { 
+	    PrevPic();
+	});
+	$('.img-gallery,.bigarrow').bind('swipeleft', function(e) { 
+	    
+	    NextPic();
 	});
 	function NextPic(){
 		FirstPrv = false;
@@ -754,7 +763,7 @@ var contact = function contact (argument) {
 	}
 }
     function fullscreen (argument) {
-        fullscreenstatus = true;
+       /* fullscreenstatus = true;
             var elem = document.getElementById("body");
         if (elem.requestFullscreen) {
             elem.requestFullscreen();
@@ -764,7 +773,7 @@ var contact = function contact (argument) {
             elem.mozRequestFullScreen();
         } else if (elem.webkitRequestFullscreen) {
             elem.webkitRequestFullscreen();
-        }
+        }*/
     }
 ;(function($) { 
   $.fn.tactile = function(swipe) {
